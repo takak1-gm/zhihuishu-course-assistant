@@ -1,0 +1,22 @@
+# 运行时产物（不应进仓库）
+*.log
+logs/
+checkpoint*.json
+*.checkpoint.json
+run-*.json
+
+# 本机路径 / 凭据 / 个人数据
+.env
+.env.*
+*secret*
+*token*
+.gh-token
+
+# 依赖与临时文件
+node_modules/
+__pycache__/
+*.tmp
+*.bak
+Thumbs.db
+desktop.ini
+.DS_Store

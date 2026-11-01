@@ -1,0 +1,8 @@
+interface:
+
+  display_name: "智慧树课程助手"
+
+  short_description: "连接已登录浏览器，检查课程、顺序播放视频并核对客观题作业提交状态"
+
+  default_prompt: "使用 $zhihuishu-course-assistant 连接我已登录的智慧树浏览器，按本次授权处理课程并核对结果。"
+
